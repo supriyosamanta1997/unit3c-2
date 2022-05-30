@@ -1,0 +1,30 @@
+#navbar{
+    height: 60px;
+    width: 100%;
+    border: solid 2px red;
+    display: flex;
+    justify-content: end;
+}
+.box{
+    height: 100%;
+    width: 30%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#navbar p{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu{
+    height: auto;
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 20px;
+}
